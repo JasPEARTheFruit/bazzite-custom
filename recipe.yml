@@ -1,0 +1,13 @@
+name: bazzite-custom
+description: My custom Bazzite spin with apps, wallpaper, and sounds
+base-image: ghcr.io/ublue-os/bazzite-kde:latest
+
+flatpaks:
+  - org.mozilla.firefox
+  - com.spotify.Client
+
+files:
+  - source: files/usr/share/wallpapers/
+    destination: /usr/share/wallpapers/
+  - source: files/usr/share/sounds/
+    destination: /usr/share/sounds/
