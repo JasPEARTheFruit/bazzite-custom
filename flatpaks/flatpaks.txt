@@ -1,0 +1,3 @@
+org.mozilla.firefox
+com.spotify.Client
+org.libreoffice.LibreOffice
